@@ -31,8 +31,13 @@ img {
     transition: transform 0.4s ease-in-out;
 }
 
-img:hover {
-   transform:  translate(5px,10px);
+@media screen and (min-width: 1px) {
+	li {
+		width: 100%;
+	}
+	img:hover {
+                transform:  translate(5px,10px);
+        }
 }
 
 @media screen and (min-width
